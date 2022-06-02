@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fba6701be837744ba2acc79a9e412b6
+guid: ce90d8508f3ba7a42a13b973c80af788
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -19,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Road with Dashed Lane
     second: {fileID: 2100000, guid: 3a1eef92b486c4c44925670ed40e92da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roundabout_circle_mat
+    second: {fileID: 2100000, guid: 37554a872afd6fa45a144d4435a263cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
