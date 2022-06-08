@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a0c0805956525f45af5190eedfb0927
+guid: ebaa49239870c554490dfe7015e0e07f
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,23 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: blue_sign
-    second: {fileID: 2100000, guid: 62773852b819d7d41bf4c92b047b8172, type: 2}
+      name: shoes
+    second: {fileID: 2100000, guid: b3aaca5c2a364ea4fb51d2879e122f29, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: metal
-    second: {fileID: 2100000, guid: 39acdc8ca68da5e4b9cbbfcf993e6d01, type: 2}
+      name: trouser
+    second: {fileID: 2100000, guid: f7e262aa260f40d4ca904c543969f5b5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: red_sign
-    second: {fileID: 2100000, guid: 47cde7a46514c3e4fb89d13b4c6d8a38, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white_sign
-    second: {fileID: 2100000, guid: f5d947703a2e76e408709a04f70b3d1c, type: 2}
+      name: tshirt
+    second: {fileID: 2100000, guid: 407e3de4fbbcf4a99b17bf5aac2d28d8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
