@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 99
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 447
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Objects
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Annik\Documents\GitHub\AR-HUD_autonomous_night_driving\AR-HUD_elements
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c9f0000
-    m_LastClickedID: 40748
-    m_ExpandedIDs: 00000000269f000000ca9a3bffffff7f
+    m_SelectedIDs: ba9f0000
+    m_LastClickedID: 40890
+    m_ExpandedIDs: 00000000989f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000269f0000
+    m_ExpandedIDs: 00000000989f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 165}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a65e0100
-      m_LastClickedID: 89766
-      m_ExpandedIDs: cadefeff422dffffa66cffff12acffff30fbffff
+      m_SelectedIDs: 6ec1faff
+      m_LastClickedID: -343698
+      m_ExpandedIDs: bea6fbff52e5fbff0c24fcff9c62fcff1ca1fcffacdffcff321efdffc25cfdff429bfdffd2d9fdff5818feffe856feff7495fefffe27ffff6233ffff1478ffff8cbaffff30fbfffff0e0000008e1000020e10000d2c90700
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -252.44025, y: -55.201385, z: -40.228436}
+    m_Target: {x: -244.69218, y: -80.15762, z: -102.632484}
     speed: 2
-    m_Value: {x: -252.44025, y: -55.201385, z: -40.228436}
+    m_Value: {x: -244.69218, y: -80.15762, z: -102.632484}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -783,22 +783,22 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.48137417, y: -0.51708436, z: 0.47166678, w: -0.5277237}
+    m_Target: {x: 0.08512559, y: 0.9106494, z: -0.328187, w: 0.23621294}
     speed: 2
-    m_Value: {x: -0.48135993, y: -0.5170691, z: 0.47165284, w: -0.5277081}
+    m_Value: {x: 0.085124224, y: 0.9106349, z: -0.32818174, w: 0.23620917}
   m_Size:
-    m_Target: 161.08939
+    m_Target: 69.92404
     speed: 2
-    m_Value: 161.08939
+    m_Value: 69.92404
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.1204399
     m_SpeedNormalized: 0.55999994
