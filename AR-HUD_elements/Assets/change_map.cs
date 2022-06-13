@@ -29,8 +29,8 @@ public class change_map : MonoBehaviour
     {
         carNewX = car.transform.position.x;
         carNewZ = car.transform.position.z;
-        float offsetX = (carNewZ - carZ)/400;
-        float offsetY = (carNewX - carX)/450;
+        float offsetX = (carNewZ - carZ)/390;
+        float offsetY = (carNewX - carX)/535;
         
         carRotation = car.transform.localEulerAngles.y;
         
