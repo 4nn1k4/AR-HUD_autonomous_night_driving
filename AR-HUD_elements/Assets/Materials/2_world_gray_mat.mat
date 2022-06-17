@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 2_world_gray_mat
-  m_Shader: {fileID: 10722, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: e04d9c20aed18454f9abeb1687f45dc4, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -79,7 +79,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
-    - _EmisColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.80784315}
+    - _Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0.5882353}
+    - _EmisColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.50980395}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

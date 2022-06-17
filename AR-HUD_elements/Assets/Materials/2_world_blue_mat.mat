@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 2_world_blue_mat
-  m_Shader: {fileID: 10722, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: e04d9c20aed18454f9abeb1687f45dc4, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _WINDQUALITY_NONE
@@ -108,6 +108,7 @@ Material:
     - _Parallax: 0.02
     - _ShadowStrength: 1
     - _Shininess: 0.078125
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SquashAmount: 1
@@ -120,8 +121,10 @@ Material:
     - _WindQuality: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.041651852, g: 0.2868251, b: 0.6792453, a: 1}
-    - _EmisColor: {r: 0, g: 0.22716947, b: 0.7169812, a: 0.77254903}
+    - _Color: {r: 0.041651852, g: 0.2868251, b: 0.6792453, a: 0.5882353}
+    - _CutoffColor: {r: 1, g: 0, b: 0, a: 0}
+    - _EmisColor: {r: 0, g: 0.22716947, b: 0.7169812, a: 0.039215688}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}

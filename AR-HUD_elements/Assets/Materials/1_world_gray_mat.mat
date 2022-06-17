@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 1_world_gray_mat
-  m_Shader: {fileID: 4800000, guid: 5eb16e41b71d4ca4496f3414187c9333, type: 3}
+  m_Shader: {fileID: 4800000, guid: e04d9c20aed18454f9abeb1687f45dc4, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -76,6 +76,7 @@ Material:
     - _Occlusion: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SquashAmount: 1
@@ -83,8 +84,10 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0.3137255}
+    - _Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.3137255}
+    - _CutoffColor: {r: 1, g: 0, b: 0, a: 0}
     - _EmisColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.27450982}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
