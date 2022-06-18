@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class change_map : MonoBehaviour
+public class rotate_map : MonoBehaviour
 {
     public GameObject map;
     public GameObject car;
-    public GameObject arrow;
-    public float horizontalScrollSpeed = 0f;
-    public float verticalScrollSpeed = 1f;
     Renderer mapRenderer;
     float carX;
     float carZ;
@@ -29,18 +26,22 @@ public class change_map : MonoBehaviour
     {
         carNewX = car.transform.position.x;
         carNewZ = car.transform.position.z;
-        float offsetX = (carNewZ - carZ)/385;
-        float offsetY = (carNewX - carX)/510;
+        float offsetX = (carNewZ - carZ)/387;
+        float offsetY = (carNewX - carX)/507;
         
         carRotation = car.transform.localEulerAngles.y;
+        float rotationValue = 90 - carRotation;
         
-        arrow.transform.localRotation = Quaternion.Euler(-carRotation, -88, 90);
+        map.transform.localRotation = Quaternion.Euler(90 + rotationValue, 91, 91);
         mapRenderer.material.mainTextureOffset = new Vector2(mapRenderer.material.mainTextureOffset.x - offsetX, mapRenderer.material.mainTextureOffset.y + offsetY);
-
+        /*Vector2 offset = new Vector2(mapRenderer.material.mainTextureOffset.x - offsetX, mapRenderer.material.mainTextureOffset.y + offsetY);
+        Vector2 tiling = new Vector2(0.15f, 0.15f);
+        var rot = Quaternion.Euler(90 + rotationValue, 91, 91);
+        var matrix = Matrix4x4. TRS (offset, rot, tiling);
+        mapRenderer.material.SetMatrix("_Matrix", matrix);*/
 
         carX = carNewX;
         carZ = carNewZ;
     
     }
 }
-
