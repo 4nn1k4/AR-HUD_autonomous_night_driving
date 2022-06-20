@@ -1,3 +1,4 @@
+//vgl. https://www.ronja-tutorials.com/post/006-simple-transparency/
 Shader "Custom/transparent_clipping"
 {
     Properties 

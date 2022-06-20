@@ -24,21 +24,19 @@ public class rotate_map : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //calculate map position depending on position of the car
         carNewX = car.transform.position.x;
         carNewZ = car.transform.position.z;
         float offsetX = (carNewZ - carZ)/387;
         float offsetY = (carNewX - carX)/507;
         
+        //calculate map rotation based on rotation of the car 
         carRotation = car.transform.localEulerAngles.y;
         float rotationValue = 90 - carRotation;
         
+        //set rotation and position of the map
         map.transform.localRotation = Quaternion.Euler(90 + rotationValue, 91, 91);
         mapRenderer.material.mainTextureOffset = new Vector2(mapRenderer.material.mainTextureOffset.x - offsetX, mapRenderer.material.mainTextureOffset.y + offsetY);
-        /*Vector2 offset = new Vector2(mapRenderer.material.mainTextureOffset.x - offsetX, mapRenderer.material.mainTextureOffset.y + offsetY);
-        Vector2 tiling = new Vector2(0.15f, 0.15f);
-        var rot = Quaternion.Euler(90 + rotationValue, 91, 91);
-        var matrix = Matrix4x4. TRS (offset, rot, tiling);
-        mapRenderer.material.SetMatrix("_Matrix", matrix);*/
 
         carX = carNewX;
         carZ = carNewZ;

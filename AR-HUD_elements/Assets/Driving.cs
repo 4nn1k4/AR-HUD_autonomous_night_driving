@@ -22,7 +22,7 @@ public class Driving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //reduce and increase speed at points on map
         var distance = Vector3.Distance(transform.position, speedPoints[speedPointCounter].transform.position);
         if(distance < 2f && (speedPointCounter % 2 == 0))
         {

@@ -1,5 +1,5 @@
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
+//vgl. https://www.ronja-tutorials.com/post/006-simple-transparency/
 Shader "Custom/transparent_shader"
 {
     Properties 

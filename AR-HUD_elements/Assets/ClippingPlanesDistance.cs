@@ -5,7 +5,6 @@ using UnityEngine;
 [ExecuteAlways]
 public class ClippingPlanesDistance : MonoBehaviour
 {
-    //material we pass the values to
     public Material mat_blue_d;
     public Material mat_gray_d;
 

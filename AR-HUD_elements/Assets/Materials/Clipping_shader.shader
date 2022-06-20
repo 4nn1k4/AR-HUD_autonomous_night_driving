@@ -21,11 +21,7 @@ Shader "Custom/Clipping_shader"
         Cull Off
 
         CGPROGRAM
-        //the shader is a surface shader, meaning that it will be extended by unity in the background
-        //to have fancy lighting and other features
-        //our surface shader function is called surf and we use our custom lighting model
-        //fullforwardshadows makes sure unity adds the shadow passes the shader might need
-        //vertex:vert makes the shader use vert as a vertex shader function
+  
         #pragma surface surf Standard fullforwardshadows
         #pragma target 3.0
 
@@ -57,7 +53,7 @@ Shader "Custom/Clipping_shader"
 
             float facing = i.facing * 0.5 + 0.5;
 
-            //normal color stuff
+            //coloring
             fixed4 col = tex2D(_MainTex, i.uv_MainTex);
             col *= _Color;
             o.Albedo = col.rgb * facing;

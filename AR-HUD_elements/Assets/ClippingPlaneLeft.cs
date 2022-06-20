@@ -5,7 +5,6 @@ using UnityEngine;
 [ExecuteAlways]
 public class ClippingPlaneLeft : MonoBehaviour
 {
-    //material we pass the values to
     public Material mat_blue_l;
     public Material mat_gray_l;
 

@@ -19,6 +19,7 @@ public class change_2_screen_fix : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //change material at position of points on map
         var distance = Vector3.Distance(transform.position, changingPoints[counter].transform.position);
         if(distance < 3f)
         {
