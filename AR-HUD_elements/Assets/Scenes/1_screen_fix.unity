@@ -606,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f2d7697b0930994d8b9582dc8cba0b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.001
+      value: -0.068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f2d7697b0930994d8b9582dc8cba0b6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -614,7 +614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f2d7697b0930994d8b9582dc8cba0b6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.173
+      value: 1.175
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f2d7697b0930994d8b9582dc8cba0b6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1523,6 +1523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1982091384}
   - component: {fileID: 1982091385}
+  - component: {fileID: 1982091386}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1538,7 +1539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982091383}
   m_LocalRotation: {x: 0.06527536, y: 0.012526182, z: -0.0010456367, w: 0.9977882}
-  m_LocalPosition: {x: -0.389, y: 1.31, z: 0.077}
+  m_LocalPosition: {x: -0.426, y: 1.31, z: -0.152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1563,6 +1564,20 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 880378139}
   m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 0
+--- !u!114 &1982091386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982091383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a07d9e1415fc8904b8c77c400eacccdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VRCamHolder: {fileID: 1982091384}
+  WaitBeforeCompensation: 0.5
 --- !u!1001 &2074625348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1576,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162693ae4ac9c894487d1e88e79400ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.002
+      value: -0.069
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162693ae4ac9c894487d1e88e79400ff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1584,7 +1599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162693ae4ac9c894487d1e88e79400ff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.161
+      value: 1.163
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162693ae4ac9c894487d1e88e79400ff, type: 3}
       propertyPath: m_LocalRotation.w
