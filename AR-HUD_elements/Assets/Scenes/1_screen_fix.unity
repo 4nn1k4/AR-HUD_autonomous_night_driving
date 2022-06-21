@@ -1133,31 +1133,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: -0.57427174
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: -0.04000002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.02
+      value: -0.022391796
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7066618
+      value: 0.7066617
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7066618
+      value: -0.7066617
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.025082588
+      value: 0.025084702
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.025082588
+      value: 0.025084702
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1169,7 +1169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 92.429
+      value: 4.066
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ebaa49239870c554490dfe7015e0e07f, type: 3}
       propertyPath: m_Name
