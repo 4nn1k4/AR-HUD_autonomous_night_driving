@@ -7,10 +7,14 @@ public class Driving : MonoBehaviour
 {
     public GameObject[] speedPoints;
     public PathCreator pathCreator;
-    public float speed = 7;
+    public float speed = 7f;
     float distanceTravelled;
     int speedPointCounter = 0;
     private bool speedChanger = false;
+    private float speedChangeValue = 0.04f;
+    private float minSpeed = 3f;
+    private float maxSpeed = 7.5f;
+    private float distanceValue = 2f;
 
 
     // Start is called before the first frame update
@@ -24,17 +28,21 @@ public class Driving : MonoBehaviour
     {
         //reduce and increase speed at points on map
         var distance = Vector3.Distance(transform.position, speedPoints[speedPointCounter].transform.position);
-        if(distance < 2f && (speedPointCounter % 2 == 0))
+        if(distance < distanceValue && (speedPointCounter % 2 == 0))
         {
-            speed = speed - 0.04f;
+            if(speed>minSpeed){
+            speed = speed - speedChangeValue;
             speedChanger = true;
+            }
         }
         else if(distance < 2f && (speedPointCounter % 2 == 1))
         {
-            speed = speed + 0.04f;
+            if(speed<maxSpeed){
+            speed = speed + speedChangeValue;
             speedChanger = true;
+            }
         }
-        if(speedChanger && (distance >= 2f))
+        if(speedChanger && (distance >= distanceValue))
         {
             speedPointCounter++;
             speedChanger = false;
