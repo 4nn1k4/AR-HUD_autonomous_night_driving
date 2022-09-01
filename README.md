@@ -1,4 +1,28 @@
-# AR-HUD-elements at night for autonomous vehicles in VR
+# Design and Evaluation of AR-HUD Elements at Night for Autonomous Vehicles in VR
+
+This Unity 2021.3.1f1 project contains the VR autonomous driving simulator to view the AR-HUD elements driving autonomously at night on country roads.
+
+
+## The World-1-Surface element
+
+<img width = "700em" src="/docs/abstraction_1_world_fix.png">
+
+
+## The World-2-Sky element
+
+<img width = "700em" src="/docs/abstraction_2_world_fix.png">
+
+## The Screen-1-Map element
+
+<img width = "700em" src="/docs/abstraction_1_screen_fix.png">
+
+## The Screen-2-Images element
+
+<img width = "700em" src="/docs/abstraction_2_screen_fix.png">
+
+
+___
+
 
 
 
@@ -25,6 +49,12 @@ Wisky, Y. L. (2019). 2019 Audi RS Q3 Sportback. BlenderKit. https://www.blenderk
 <ins>Bézier Path Creator:</ins>
 
 Lague, S. (2019). Bézier Path Creator. Unity Asset Store. [https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082](https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082) (Accessed 05.06.2022)
+
+### Program
+
+<ins>Unity:</ins>
+
+Unity. (2022) The world's leading platform for real-time content creation. [https://unity.com/](https://unity.com/) (Accessed 01.09.2022)
 
 
 
