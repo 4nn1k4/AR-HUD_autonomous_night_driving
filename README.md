@@ -7,7 +7,7 @@ This project was developed in context of my bachelor thesis at the University of
 
 ## Idea
 Based on related work, I designed four AR-HUD elements in VR with the help of Unity 2021.3.1f1 and Blender. 
-The intention was to research which AR-HUD element was preferred by users.
+The intention was to research which AR-HUD element was preferred by users driving at night on country roads.
 The AR-HUD elements can be classified within two categories. The elements could be either world- or screen related or have different levels of abstraction.
 
 ## AR-HUD elements
