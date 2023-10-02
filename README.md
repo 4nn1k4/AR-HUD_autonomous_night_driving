@@ -1,24 +1,37 @@
 # Design and Evaluation of AR-HUD Elements at Night for Autonomous Vehicles in VR
 
-This Unity 2021.3.1f1 project contains the VR autonomous driving simulator to view the AR-HUD elements driving autonomously at night on country roads.
+This project contains a VR autonomous driving simulator to view AR-HUD elements driving autonomously at night on country roads.
+
+This project was developed in context of my bachelor thesis at the University of Regensburg (Chair for Media Informatics).
 
 
-## The World-1-Surface element
+## Idea
+Based on related work, I designed four AR-HUD elements in VR with the help of Unity 2021.3.1f1 and Blender. 
+The intention was to research which AR-HUD element was preferred by users.
+The AR-HUD elements can be classified within two categories. The elements could be either world- or screen related or have different levels of abstraction.
 
-<img width = "700em" src="/docs/abstraction_1_world_fix.png">
+## AR-HUD elements
+<table>
+  <tr>
+    <th>Categories</th>
+    <th>Screen related</th>
+    <th>World related</th>
+  </tr>
+  <tr>
+    <th>Abstraction level 1</th>
+    <td><img width = "700em" src="/docs/abstraction_1_screen_fix.png"></td>
+    <td><img width = "700em" src="/docs/abstraction_1_world_fix.png"></td>
+  </tr>
+  <tr>
+    <th>Abstraction level 2</th>
+    <td><img width = "700em" src="/docs/abstraction_2_screen_fix.png"></td>
+    <td><img width = "700em" src="/docs/abstraction_2_world_fix.png"></td>
+  </tr>
+</table>
 
-
-## The World-2-Sky element
-
-<img width = "700em" src="/docs/abstraction_2_world_fix.png">
-
-## The Screen-1-Map element
-
-<img width = "700em" src="/docs/abstraction_1_screen_fix.png">
-
-## The Screen-2-Images element
-
-<img width = "700em" src="/docs/abstraction_2_screen_fix.png">
+## Results
+As a result of my study most of the participants prefer the world related abstraction level 1 AR-HUD element, closely followed by the screen related abstraction level 1 element.
+The AR-HUD element which is the least favorite is the screen related abstraction level 2 AR-HUD element.
 
 
 ___
