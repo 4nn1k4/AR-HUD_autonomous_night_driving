@@ -1,14 +1,19 @@
 # Design and Evaluation of AR-HUD Elements at Night for Autonomous Vehicles in VR
 
-This project contains a VR autonomous driving simulator to view AR-HUD elements driving autonomously at night on country roads.
+This project involves the development of a VR autonomous driving simulator that allows users to experience AR-HUD elements while driving autonomously at night on country roads
 
-This project was developed in context of my bachelor thesis at the University of Regensburg (Chair for Media Informatics).
+This project was developed in context of my bachelor thesis at the University of Regensburg, specifically within the Chair for Media Informatics.
 
 
 ## Idea
-Based on related work, I designed four AR-HUD elements in VR with the help of Unity 2021.3.1f1 and Blender. 
-The intention was to research which AR-HUD element was preferred by users driving at night on country roads.
-The AR-HUD elements can be classified within two categories. The elements could be either world- or screen related or have different levels of abstraction.
+Building upon existing research in this field, I designed four AR-HUD elements using Unity 2021.3.1f1 and Blender. 
+The primary goal was to investigate user preferences for AR-HUD elements in the context of nighttime driving on rural roads.
+
+The AR-HUD elements have two main characteristics. The elements can be either world or screen related as well as have different levels of abstraction.
+
+* <b> World or Screen Related: </b> These elements are designed to either interact with the real-world environment or be anchored to the user's viewpoint or screen, providing different ways of presenting information.
+
++ <b> Levels of Abstraction: </b> The AR-HUD elements also vary in their levels of abstraction, offering users either detailed and realistic or simplified and abstracted visualizations.
 
 ## AR-HUD elements
 <table>
@@ -30,9 +35,11 @@ The AR-HUD elements can be classified within two categories. The elements could 
 </table>
 
 ## Results
-As a result of my study most of the participants prefer the world related abstraction level 1 AR-HUD element, closely followed by the screen related abstraction level 1 element.
+To achieve my research goal, I conducted a study with the help of my VR autonomous driving simulator. <br>
+As a result, most of the participants prefer the world related abstraction level 1 AR-HUD element, closely followed by the screen related abstraction level 1 element.
 The AR-HUD element which is the least favorite is the screen related abstraction level 2 AR-HUD element.
 
+This project contributes to the understanding of how augmented reality can enhance the driving experience, particularly in low-light and rural settings. The combination of VR technology, Unity development, and user testing enabled a comprehensive exploration of user preferences and the potential applications of AR-HUD technology in real-world scenarios.
 
 ___
 
